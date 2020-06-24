@@ -1,0 +1,60 @@
+.titlePosition>>>.el-breadcrumb
+  font-size: 12px
+  float: right
+.con-wapper
+  width: 1200px
+  margin auto
+  .titlePosition
+    display flex
+    justify-content space-between
+    .title
+      font-size 18px
+      color #000
+    .position
+      font-size 12px
+  .changeCon
+    .change-title
+      margin 50px 0
+      text-align center
+      font-size 16px
+    .industries
+      display flex
+      flex-flow: row wrap
+      justify-content space-between
+      li
+        border 2px solid rgb(22, 66, 131)
+        width 340px
+        height 240px
+        margin-bottom 20px
+        box-shadow: 0 2px 12px 0 rgba(22, 66, 131, 0.5)
+        text-align center
+        position: relative
+        cursor: pointer
+        .normal, .isHoverClick
+          padding 60px
+          width 340px
+          height 240px
+          box-sizing border-box
+          .item-title
+            line-height 60px
+        .isHoverClick
+          background rgb(22, 66, 131)
+          color #fff
+          position: absolute
+          top: 0
+          left: 0
+          z-index: 2
+    .button
+      display flex
+      justify-content space-around
+      margin-bottom 20px
+      .pre-next
+        background url(../../assets/images/button.png)
+        background-repeat no-repeat
+        background-size cover
+        color #fff
+        width 180px
+        height 35px
+        line-height 35px
+        text-align center
+        cursor pointer

@@ -1,0 +1,23 @@
+.centerContent>>>.el-tabs--card>.el-tabs__header
+  border none
+.centerContent>>>.el-tabs--border-card>.el-tabs__header
+  border none
+  background rgba(22, 66, 131, .5)
+.centerContent>>>.el-tabs--border-card>.el-tabs__header .el-tabs__item
+  color #FFFFFF
+  line-height 80px
+  height 80px
+  width 300px
+  text-align center
+  border-left 1px solid #164283
+.centerContent>>>.el-tabs--border-card>.el-tabs__header .el-tabs__item.is-active
+  background rgba(22, 66, 131, 1)
+  border 1px solid #164283
+.centerContent>>>.el-tabs--border-card
+  border none
+  box-shadow none
+.centerContent>>>.el-tabs--border-card>.el-tabs__content
+  padding 0 !important
+.centerContent
+  width 1200px
+  margin auto

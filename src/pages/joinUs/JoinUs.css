@@ -1,0 +1,45 @@
+.titlePosition>>>.el-breadcrumb
+  font-size: 12px
+  float: right
+.con-wapper
+  width: 1200px
+  margin auto
+  .titlePosition
+    display flex
+    justify-content space-between
+    margin-bottom 40px
+    .title
+      font-size 18px
+      color #000
+    .position
+      font-size 12px
+  .post
+    padding 40px 0
+    .post-title
+      font-size 18px
+      color #000
+      margin-bottom 40px
+    .post-introduce
+      background #eee
+      padding 20px
+      .post-request
+        font-size 14px
+        line-height 30px
+      .request-desc
+        line-height 28px
+        padding-left 70px
+        font-size 12px
+.com-title
+  text-align center
+  font-size 18px
+  color #000
+  margin-bottom 30px
+.com-img
+  width 100%
+  height 300px
+.com-introduce
+  width 800px
+  margin auto
+  margin-bottom 30px
+  margin-top 30px
+  line-height 24px

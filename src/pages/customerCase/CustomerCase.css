@@ -1,0 +1,71 @@
+.content>>>img
+  display none
+.con-wapper>>>.el-pagination
+  text-align center
+  margin 20px 0
+.con-wapper>>>.el-pagination.is-background .el-pager li:not(.disabled).active
+  background #164283
+.titlePosition>>>.el-breadcrumb
+  font-size: 12px
+  float: right
+.con-wapper
+  width: 1200px
+  margin auto
+  .titlePosition
+    display flex
+    justify-content space-between
+    .title
+      font-size 18px
+      color #000
+    .position
+      font-size 12px
+  .img-con
+    display flex
+    flex-flow wrap
+    margin-top 120px
+    margin-left -88px
+    .img-item
+      width 26%
+      cursor pointer
+      margin-bottom 40px
+      margin-left 88px
+      .image
+        background url(../../assets/images/sources.png)
+        width 100%
+        height 340px
+        background-size cover
+        .content-show
+          background #fff
+          color #333333
+          width 100%
+          height 100%
+          line-height 23px
+          font-size 12px
+          position relative
+          border 1px solid #CACACA
+          box-sizing border-box
+          .con-title
+            border-bottom 1px solid #CACACA
+            padding 20px
+            text-align center
+          .content
+            padding 20px
+            width 100%
+            box-sizing border-box
+            height 110px
+            text-indent 2em
+            display -webkit-box /* 作为弹性伸缩盒子模型显示 */
+            -webkit-line-clamp 4 /* 显示的行数；如果要设置2行加...则设置为2 */
+            overflow hidden /*超出的文本隐藏*/
+            text-overflow ellipsis /* 溢出用省略号 */
+            -webkit-box-orient vertical /* 伸缩盒子的子元素排列：从上到下 */
+          .desc-button
+            position absolute
+            left 50%
+            margin-left -40px
+            bottom 30px
+            color #164283
+            border 1px solid #164283
+            width 80px
+            text-align center
+            line-height 26px

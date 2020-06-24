@@ -1,0 +1,49 @@
+.content>>>img
+  display none
+.con-wapper>>>.el-pagination
+  text-align center
+  margin 20px 0
+.con-wapper>>>.el-pagination.is-background .el-pager li:not(.disabled).active
+  background #164283
+.titlePosition>>>.el-breadcrumb
+  font-size: 12px
+  float: right
+.con-wapper
+  width: 1200px
+  margin auto
+  .titlePosition
+    display flex
+    justify-content space-between
+    .title
+      font-size 18px
+      color #000
+    .position
+      font-size 12px
+.news
+  margin-top 90px
+  .news-item
+    display flex
+    padding 20px 0
+    border-bottom 1px solid #929090
+    cursor pointer
+    img
+      width 100px
+      height 120px
+      margin-right 20px
+    .news-con
+      flex 1
+      font-size 14px
+      color #929090
+      height 120px
+      overflow hidden
+      .news-title
+        color #000
+        line-height 40px
+      .news-desc
+        line-height 22px
+        margin-top 10px
+        display -webkit-box /* 作为弹性伸缩盒子模型显示 */
+        -webkit-line-clamp 3 /* 显示的行数；如果要设置2行加...则设置为2 */
+        overflow hidden /*超出的文本隐藏*/
+        text-overflow ellipsis /* 溢出用省略号 */
+        -webkit-box-orient vertical /* 伸缩盒子的子元素排列：从上到下 */
